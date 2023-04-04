@@ -11,7 +11,7 @@ $lg : #202020;
     }
 
     .container{
-        width: 1490px;
+        width: fill;
 
         //login and Register pages
 
@@ -25,7 +25,7 @@ $lg : #202020;
 
             h1{
                 font-size: 20px;
-                color: teal;
+                color: white;
                 margin-bottom: 20px;
             }
         form{
@@ -38,6 +38,7 @@ $lg : #202020;
                 gap: 20px;
             }
        input{
+                font-size: 14px;
                 padding: 10px;
                 border:none;
                 border-bottom: 1px solid rgb(142, 142, 142);
@@ -46,7 +47,9 @@ $lg : #202020;
       button{
                 padding: 10px;
                 border: none;
-                background-color: teal;
+                font-size: 16px ;
+                background-color : black;
+                border-radius: 5px;
                 color: white;
                 cursor: pointer;
 
@@ -135,6 +138,7 @@ $lg : #202020;
         .home{
 
             .posts{
+                padding-left: 20px;
                 margin-top: 50px;
                 display: flex;
                 flex-direction: column;
@@ -217,6 +221,7 @@ $lg : #202020;
 //single
         .single{
             display: flex;
+            padding-left: 20px;
             gap:50px;
 
             .content{
